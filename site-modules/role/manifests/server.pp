@@ -2,5 +2,5 @@
 #
 # This is a generic role that applies the baseline config only
 class role::server {
-  inlcude profile::base
+  include profile::base
 }

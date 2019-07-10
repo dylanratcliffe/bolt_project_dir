@@ -4,6 +4,9 @@
 class profile::base::linux (
   Array $extra_packages = [],
 ) {
+  # All Linux nodes should have epel
+  include epel
+
   $main_packages = [
     'vim',
     'tree',
