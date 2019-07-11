@@ -2,6 +2,10 @@
 class profile::base {
   include profile::base::security
 
+  class { 'os_patching':
+    fact_upload => false,
+  }
+
   # OS specific base things
   case $facts['kernel'] {
     'windows': {
