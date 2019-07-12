@@ -1,6 +1,7 @@
 mod 'albatrossflavour-os_patching', '0.11.2'
 mod 'ghoneycutt-common', '1.9.0'
 mod 'ghoneycutt-ssh', '3.61.0'
+mod 'puppet-archive', '4.1.0'
 mod 'puppet-cron', '1.3.1'
 mod 'puppet-windows_firewall', '2.0.2'
 mod 'puppetlabs-chocolatey', '3.3.0'

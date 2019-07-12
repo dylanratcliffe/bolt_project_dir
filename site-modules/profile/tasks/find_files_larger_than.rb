@@ -43,4 +43,4 @@ files.keep_if do |path|
   end
 end
 
-puts files.to_json
+puts({ 'files' => files }.to_json)

@@ -6,6 +6,7 @@ class profile::base::linux (
 ) {
   # All Linux nodes should have epel
   include epel
+  include profile::base::linux::backups
 
   $main_packages = [
     'vim',
