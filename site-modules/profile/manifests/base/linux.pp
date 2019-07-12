@@ -11,6 +11,7 @@ class profile::base::linux (
     'vim',
     'tree',
     'htop',
+    'wget',
   ]
 
   # Install both the main and extra packages
