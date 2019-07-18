@@ -18,3 +18,5 @@ mod 'puppetlabs-sshkeys_core', '1.0.2'
 mod 'puppetlabs-stdlib', '6.0.0'
 mod 'puppetlabs-translate', '2.0.0'
 mod 'stahnma-epel', '1.3.1'
+mod 'bolt_vagrant',
+  :git => 'git@github.com:dylanratcliffe/bolt_vagrant.git'
